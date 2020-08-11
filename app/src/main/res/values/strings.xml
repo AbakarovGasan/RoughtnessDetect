@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Roughtness Detect</string>
+    <string name="view_logs">показать журнал</string>
+    <string name="back">назад</string>
+    <string name="update_interval">Интервал обновления (ms)</string>
+    <string name="start">старт</string>
+    <string name="stop">стоп</string>
+    <string name="GPS">GPS-координаты загружаются с </string>
+    <string name="defaultx">По умолчанию</string>
+    <string name="callibrate">Каллибровать</string>
+    <string name="max_count_of_logs">Чувствительность</string>
+    <string name="error_request">Ошибка при запросе GPS координат</string>
+    <string name="show_map">все метки</string>
+    <string name="diagram">Диаграмма</string>
+    <string name="wait_loading" tools:ignore="TypographyEllipsis"
+        >Подождите, идёт загрузка GPS\n\n\nГравитация\nx=%s\ny=%s\nz=%s\n\nГироскоп\nx=%s\ny=%s\nz=%s\nx*x+y*y+z*z=%s</string>
+    <string name="gps_log" tools:ignore="TypographyEllipsis"
+        >Широта:     %s\nДолгота:    %s\n\nГравитация\nx=%s\ny=%s\nz=%s\n\nГироскоп\nx=%s\ny=%s\nz=%s\nx*x+y*y+z*z=%s</string>
+    <string name="prev">пред.</string>
+    <string name="next">след.</string>
+    <string name="refresh">обновить</string>
+    <string name="anomalies">Аномалии</string>
+</resources>
