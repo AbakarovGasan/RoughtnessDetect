@@ -8,16 +8,23 @@
     <string name="GPS">GPS-координаты загружаются с </string>
     <string name="defaultx">По умолчанию</string>
     <string name="callibrate">Каллибровать</string>
-    <string name="max_count_of_logs">Чувствительность</string>
+    <string name="max_count_of_logs">Среднее квадратичное отклонение</string>
     <string name="error_request">Ошибка при запросе GPS координат</string>
     <string name="show_map">все метки</string>
     <string name="diagram">Диаграмма</string>
-    <string name="wait_loading" tools:ignore="TypographyEllipsis"
-        >Подождите, идёт загрузка GPS\n\n\nГравитация\nx=%s\ny=%s\nz=%s\n\nГироскоп\nx=%s\ny=%s\nz=%s\nx*x+y*y+z*z=%s</string>
-    <string name="gps_log" tools:ignore="TypographyEllipsis"
-        >Широта:     %s\nДолгота:    %s\n\nГравитация\nx=%s\ny=%s\nz=%s\n\nГироскоп\nx=%s\ny=%s\nz=%s\nx*x+y*y+z*z=%s</string>
+    <string name="wait_loading">Подождите, идёт загрузка GPS\n\n\n</string>
+    <string name="gps_log">Широта:     %s\nДолгота:    %s\n\n</string>
     <string name="prev">пред.</string>
     <string name="next">след.</string>
     <string name="refresh">обновить</string>
     <string name="anomalies">Аномалии</string>
+    <string name="accelerometer">Акселерометр\nx=%s\ny=%s\nz=%s\n\n</string>
+    <string name="gravity">Гравитация\nx=%s\ny=%s\nz=%s\n\n</string>
+    <string name="alert">Для корректной работы приложения устройство должно иметь гироскоп и акселерометер</string>
+    <string name="request_permission">Необходимо задать приложению разрешения на получение геолокации</string>
+    <string name="use_accelerometer">Без гироскопа</string>
+    <string name="settings">открыть настройки</string>
+    <string name="request_location">Необходимо включить геолокацию</string>
+    <string name="GPS_still_loading">Геоданные все еще загружаются</string>
+    <string name="show_in_map">показать на карте</string>
 </resources>
